@@ -1,0 +1,2 @@
+GET http://127.0.0.1:18080/hotels/912/rooms/west-wing-2012/reservations?page=1&size=50&sort=reservationId,desc&sort=reservationDate,desc
+

@@ -1,0 +1,17 @@
+POST http://127.0.0.1:18080/hotels/123/rooms
+Content-Type: application/json
+
+{
+  "roomNumber": "West-Wing-3928",
+  "roomType": "single",
+  "originalPrice": "150.00"
+}
+
+###
+
+PUT http://127.0.0.1:18080/hotels/123/rooms/West-Wing-3928
+Content-Type: application/json
+
+{
+  "originalPrice": "150.00"
+}
