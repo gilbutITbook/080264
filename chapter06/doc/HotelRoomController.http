@@ -1,0 +1,18 @@
+POST http://127.0.0.1:18080/hotels/123/rooms
+Content-Type: application/json
+
+{
+  "roomNumber": "West-Wing-3928",
+  "roomType": "single",
+  "originalPrice": "150.00"
+}
+
+###
+
+GET http://127.0.0.1:18080/hotels/123/rooms/West-Wing-3928
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:18080/hotels/123/rooms/West-Wing-3928
+Accept: application/xml
