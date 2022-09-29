@@ -1,0 +1,14 @@
+POST 127.0.0.1:18080/hotels
+Content-Type: application/json
+User-Id: test
+
+{
+  "name" : "Creekside Inn",
+  "address" : "725 N Main St, Bishop, CA 93514",
+  "phoneNumber" : "+17608723044",
+  "roomCount" : 30
+}
+
+###
+
+GET 127.0.0.1:18080/hotels/2
