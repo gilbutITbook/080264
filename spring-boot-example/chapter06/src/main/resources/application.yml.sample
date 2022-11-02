@@ -1,0 +1,12 @@
+springtour:
+  domain:
+    name: https://springtour.io #Key=springtour.domain.name
+  kafka:
+    bootstrap-servers: #List 형태 선언
+      - 10.1.1.100
+      - 10.1.1.101
+      - 10.1.1.102
+    topic:
+      checkout: springtour-hotel-event-checkout
+      reservation: springtour-hotel-event-reservation
+    ack-level: 1
