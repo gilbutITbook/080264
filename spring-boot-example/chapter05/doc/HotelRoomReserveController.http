@@ -1,0 +1,11 @@
+POST http://127.0.0.1:18080/hotels/123/rooms/West-Wing-3928/reserve
+Content-Type: application/json
+
+{
+  "name": "Byungboo Kim",
+  "checkInDate" : "2021-01-01",
+  "checkOutDate" : "2020-12-31"
+}
+
+
+
